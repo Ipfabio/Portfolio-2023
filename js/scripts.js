@@ -1,6 +1,12 @@
 const toggleTheme = document.getElementById("toggle-theme");
 const toggleIcon = document.getElementById("toggle-icon");
 const toggleText = document.getElementById("toggle-text");
+
+const toggleColors = document.getElementById('toggle-colors')
+
+// Acá estan todas las variables del archivo CSS
+const rootStyles = document.documentElement.style
+
 // Dark mode
 toggleTheme.addEventListener("click", () => {
   // Si la tiene la quita, sino lo pone
@@ -10,6 +16,11 @@ toggleTheme.addEventListener("click", () => {
     toggleText.textContent = "Light Mode";
   } else {
     toggleIcon.src = "assets/icons/moon.svg";
-    toggleText.textContent = "Dark mode";
+    toggleText.textContent = "Dark Mode";
   }
 });
+
+// Cambiar elementos de color
+toggleColors.addEventListener('click', (e) => {
+  rootStyles.setProperty('--primary-color', e.target.dataset.color)
+})
