@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Back-end Developer",
+        "description": "More than 9 years of experience in web development. Passionate about new technologies and especially the CSS and JavaScript ecosystem. <br> My purpose is to transfer my passion for teaching web technologies to all those who want to start in this field in an updated way, with good practices and from scratch."
+    },
+    "experience": {
+        "first-job-title": "Back-end Developer ",
+        "first-job-date": "Jan 1995 - Jan 2000",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "second-job-title": "Front-end Developer ",
+        "second-job-date": "Feb 2000 - Mar 2005",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "last-job-title": "Front-end Developer",
+        "last-job-date": "Feb 2017 - Current",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    }
+}

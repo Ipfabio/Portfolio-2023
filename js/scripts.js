@@ -2,10 +2,33 @@ const toggleTheme = document.getElementById("toggle-theme");
 const toggleIcon = document.getElementById("toggle-icon");
 const toggleText = document.getElementById("toggle-text");
 
-const toggleColors = document.getElementById('toggle-colors')
+const toggleColors = document.getElementById("toggle-colors");
 
 // Acá estan todas las variables del archivo CSS
-const rootStyles = document.documentElement.style
+const rootStyles = document.documentElement.style;
+
+// Las banderas
+const flagsElement = document.getElementById("flags");
+
+// Todo lo que le hayamos puesto un data section
+const textsToChange = document.querySelectorAll("[data-section]");
+// Cambio de idioma
+const changeLanguage = async (language) => {
+  const requestJson = await fetch(`./languages/${language}.json`);
+  const texts = await requestJson.json();
+
+  for (const textToChange of textsToChange) {
+    const section = textToChange.dataset.section;
+    const value = textToChange.dataset.value;
+    // Utilizamos inner para que interprete si es que pusimos alguna etiqueta html
+    textToChange.innerHTML = texts[section][value];
+  }
+};
+
+// Nos devuelve el idioma que declaramos como dataset en html
+flagsElement.addEventListener("click", (e) => {
+  changeLanguage(e.target.parentElement.dataset.language);
+});
 
 // Dark mode
 toggleTheme.addEventListener("click", () => {
@@ -21,6 +44,6 @@ toggleTheme.addEventListener("click", () => {
 });
 
 // Cambiar elementos de color
-toggleColors.addEventListener('click', (e) => {
-  rootStyles.setProperty('--primary-color', e.target.dataset.color)
-})
+toggleColors.addEventListener("click", (e) => {
+  rootStyles.setProperty("--primary-color", e.target.dataset.color);
+});

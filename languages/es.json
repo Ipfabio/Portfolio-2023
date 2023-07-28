@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Desarrollador Back-end",
+        "description": "Soy un desarrollador backend con amplios conocimientos en diferentes lenguajes de programación y también en front-end. Me encantaría conectarme contigo en LinkedIn y explorar posibles oportunidades laborales. ¡Estoy en búsqueda de trabajo y listo para asumir nuevos desafíos!"
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Back-end",
+        "first-job-date": "Enero 1995 - Enero 2000",
+        "first-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "second-job-title": "Desarrollador Front-end",
+        "second-job-date": "Feb 2000 - Mar 2005",
+        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "last-job-title": "Desarrollador Front-end",
+        "last-job-date": "Feb 2017 - Actualmente",
+        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    }
+}
