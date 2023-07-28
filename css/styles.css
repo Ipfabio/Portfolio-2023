@@ -87,17 +87,18 @@ body.dark{
 
 .colors {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     height: 20px;
     width: 100px;
 }
 
 .colors__item{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border: 1px solid var(--text-color);
     background-color: var(--primary-color);
+    border-radius: var(--border-radius);
     cursor: pointer;
 }
 
