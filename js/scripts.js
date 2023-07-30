@@ -12,6 +12,7 @@ const flagsElement = document.getElementById("flags");
 
 // Todo lo que le hayamos puesto un data section
 const textsToChange = document.querySelectorAll("[data-section]");
+
 // Cambio de idioma
 const changeLanguage = async (language) => {
   const requestJson = await fetch(`./languages/${language}.json`);
@@ -25,10 +26,20 @@ const changeLanguage = async (language) => {
   }
 };
 
+function cambiarBandera(){
+  const botonIngles = document.getElementById('boton-ingles');
+  const botonEspanol = document.getElementById('boton-espanol');
+
+  // Toggle (alternar) la visibilidad de los botones de idioma
+  botonIngles.classList.toggle('oculto');
+  botonEspanol.classList.toggle('oculto');
+}
+
 // Nos devuelve el idioma que declaramos como dataset en html
 flagsElement.addEventListener("click", (e) => {
   changeLanguage(e.target.parentElement.dataset.language);
 });
+
 
 // Dark mode
 toggleTheme.addEventListener("click", () => {
