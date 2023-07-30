@@ -369,6 +369,11 @@ body.dark{
     color: var(--bg-color);
 }
 
+.project__tag:hover{
+    transform: translateY(2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 .buttons{
     display: flex;
     justify-content: space-between;
@@ -387,7 +392,15 @@ body.dark{
     line-height: 2.5;
     text-align: center;
     border-radius: var(--border-radius);
-    transition: var(--transition);
+    transition: transform 0.2s ease-in-out,var(--transition);
+}
+
+.button:hover{
+    transform: translateY(2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0,0.3);
+    color: var(--primary-color);
+    border: none;
 }
 
 .button--primary{
