@@ -27,7 +27,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     transition: var(--transition);
-    font-family: sans-serif;
+    font-family: monospace;
 }
 
 body.dark{
