@@ -1,17 +1,17 @@
 {
     "profile": {
-        "rol": "Desarrollador Full-Stack",
-        "description": "Soy un desarrollador Full-Stack con amplios conocimientos en diferentes lenguajes de programación de Back-end y Front-End. Mi habilidad para adaptarme rápidamente a nuevas tecnologías y entornos me ha permitido enfrentar desafíos de manera efectiva. Me considero una persona proactiva, curiosa y orientada a la mejora continua. Mi enfoque se centra en identificar obstáculos y encontrar las mejores formas de superarlos. Además, valoro la colaboración en equipo y el intercambio de conocimientos con otros profesionales. ¡Estoy en búsqueda de trabajo y listo para asumir nuevos desafíos!"
+        "rol": "Desarrollador Back-End",
+        "description": "Soy un Desarrollador Backend con experiencia en trabajar con diversos lenguajes de programación y desarrollo web. Mi habilidad para adaptarme rápidamente a nuevas tecnologías y entornos me ha permitido enfrentar desafíos de manera efectiva. Me considero una persona proactiva, curiosa y orientada a la mejora continua. Mi enfoque se centra en identificar obstáculos y encontrar las mejores formas de superarlos. Además, valoro la colaboración en equipo y el intercambio de conocimientos con otros profesionales"
     },
     "experience": {
-        "first-job-title": "Desarrollador Back-end",
-        "first-job-date": "Enero 1995 - Enero 2000",
-        "first-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        "second-job-title": "Desarrollador Front-end",
-        "second-job-date": "Feb 2000 - Mar 2005",
-        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        "last-job-title": "Desarrollador Front-end",
-        "last-job-date": "Feb 2017 - Actualmente",
-        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        "first-job-title": "Data Entry Operator",
+        "first-job-date": "May 2019 - Nov 2019",
+        "first-job-description": "Utilicé software de gestión documental y bases de datos para procesar y organizar la documentación de manera eficiente. Presentación de ideas para mejorar el desempeño y la eficiencia del software",
+        "second-job-title": "Analista Funcional",
+        "second-job-date": "Jun 2018 - Abr 2019",
+        "second-job-description": "Procesamiento y entrada de datos en Bases de Datos. Formación y supervisión de nuevos miembros del equipo. Ideas innovadoras mejoraron eficiencia: Identifiqué oportunidades de mejora y propuse soluciones que elevaron el rendimiento del equipo. Logré objetivos a corto y largo plazo. Gestión de C.R.M. para relaciones con clientes. Análisis de informes impulsó decisiones estratégicas.",
+        "last-job-title": "Customer",
+        "last-job-date": "Abr 2017 - Jun 2018",
+        "last-job-description": "Prospección de cuentas. Asistencia en la creación de anuncios. Coaching"
     }
 }

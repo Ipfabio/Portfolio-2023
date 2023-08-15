@@ -1,17 +1,17 @@
 {
     "profile": {
-        "rol": "Full-Stack Developer",
-        "description": "I am a Full-Stack developer with extensive knowledge in different Back-end and Front-End programming languages. My ability to adapt quickly to new technologies and environments has allowed me to face challenges effectively. I consider myself a proactive, curious and oriented person to continuous improvement. My focus is on identifying obstacles and finding the best ways to overcome them. In addition, I value team collaboration and knowledge sharing with other professionals. I'm looking for a job and ready to take on new challenges!"
+        "rol": "Back-End Developer",
+        "description": "I am a Backend Developer with experience in working with various programming and web development languages. My ability to adapt quickly to new technologies and environments has allowed me to face challenges effectively. I consider myself a proactive, curious and oriented person to continuous improvement. My focus is on identifying obstacles and finding the best ways to overcome them. In addition, I value team collaboration and knowledge sharing with other professionals."
     },
     "experience": {
-        "first-job-title": "Back-end Developer ",
-        "first-job-date": "Jan 1995 - Jan 2000",
-        "first-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        "second-job-title": "Front-end Developer ",
-        "second-job-date": "Feb 2000 - Mar 2005",
-        "second-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
-        "last-job-title": "Front-end Developer",
-        "last-job-date": "Feb 2017 - Current",
-        "last-job-description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        "first-job-title": "Data Entry Operator",
+        "first-job-date": "May 2019 - Nov 2019",
+        "first-job-description": "I used document management software and databases to process and organize documentation efficiently. Presentation of ideas to improve software performance and efficiency",
+        "second-job-title": "Functional Analyst",
+        "second-job-date": "Jun 2018 - Apr 2019",
+        "second-job-description": "Processing and entry of data in Databases. Training and supervision of new team members. Innovative ideas improved efficiency: I identified opportunities for improvement and proposed solutions that raised team performance. I achieved short and long term goals. C.R.M. management for customer relations. Report analysis drove strategic decisions.",
+        "last-job-title": "Customer",
+        "last-job-date": "Apr 2017 - Jun 2018",
+        "last-job-description": "Account prospecting. Assistance in creating ads. Coaching"
     }
 }
