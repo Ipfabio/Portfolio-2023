@@ -380,13 +380,6 @@ body.dark{
     width: 225px;
 }
 
-@media screen and (min-width: 760px){
-    .buttons{
-        position: absolute;
-        bottom: 1em;
-    }
-}
-
 .button{
     width: 100px;
     line-height: 2.5;
@@ -425,5 +418,23 @@ body.dark{
 @keyframes skills-bar-fill {
     to{
         transform: translateX(var(--skills-bar-length));
+    }
+}
+
+@media screen and (min-width: 760px){
+    .buttons{
+        position: absolute;
+        bottom: 1em;
+    }
+}
+
+/* Media query para iPhone 12 Pro (375px x 812px) en modo vertical */
+@media (max-width: 375px) and (height: 812px) {
+    .idioma-boton {
+      order: -1; /* Cambia el orden para mover el elemento 1 al top left */
+    }
+
+    .idioma-boton {
+      justify-self: center; /* Centra el elemento 2 en el eje horizontal */
     }
 }
